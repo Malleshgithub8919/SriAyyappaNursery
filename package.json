@@ -1,0 +1,22 @@
+{
+  "name": "sri-ayyappa-nursery",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "optimize:images": "node scripts/optimize-assets.js",
+    "seo:sitemap": "node scripts/generate-sitemap.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "vite": "^8.3.6"
+  },
+  "dependencies": {
+    "framer-motion": "^14.14.0",
+    "lucide-react": "^1.77.0",
+    "react-router-dom": "^7.18.6"
+  }
+}
